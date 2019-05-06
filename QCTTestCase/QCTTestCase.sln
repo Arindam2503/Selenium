@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Lab 1", "Test Lab 1\Test Lab 1.csproj", "{F12F8541-E564-4F0C-B6F1-84CFB429CC8F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QCTTestCase", "..\QCTTestCase\QCTTestCase\QCTTestCase.csproj", "{1C342470-E308-466B-B6A9-221C1AD05FB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QCTTestCase", "QCTTestCase\QCTTestCase.csproj", "{1C342470-E308-466B-B6A9-221C1AD05FB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F12F8541-E564-4F0C-B6F1-84CFB429CC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F12F8541-E564-4F0C-B6F1-84CFB429CC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F12F8541-E564-4F0C-B6F1-84CFB429CC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F12F8541-E564-4F0C-B6F1-84CFB429CC8F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C342470-E308-466B-B6A9-221C1AD05FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C342470-E308-466B-B6A9-221C1AD05FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C342470-E308-466B-B6A9-221C1AD05FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -8,13 +8,14 @@ using System.Threading;
 
 namespace Test_Lab_1
 {
+   
     class Program
     {
         static void Main(string[] args)
         {
             IWebDriver driver = new ChromeDriver();
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            driver.Navigate().GoToUrl("http://Capcrmdev0\*****:****@**.**.**.179:5555/****/main.aspx#433885818");
+            driver.Navigate().GoToUrl("http://Capcrmdev0\arindhsa:Zurich_2016!@13.76.210.179:5555/STORMDev/main.aspx#433885818");
             driver.SwitchTo().Frame("InlineDialog1_Iframe");
             driver.FindElement(By.XPath("//*[@id='butBegin']")).Click();
             driver.SwitchTo().Frame(1);
@@ -31,6 +32,7 @@ namespace Test_Lab_1
             Thread.Sleep(1000);
             var navbar = driver.FindElement(By.Id("navBarOverlay"));
             js.ExecuteScript("arguments[0].setAttribute('style', 'display: none')", navbar);
+            Thread.Sleep(2000);
             driver.FindElement(By.XPath("//*[@id='im_networkpartner|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.im_networkpartner.NewRecord']/span/a")).Click();
             Thread.Sleep(2000);
             driver.SwitchTo().Frame("contentIFrame1");
